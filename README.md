@@ -5,6 +5,13 @@ It showcases my professional background, skills, and contact information.
 
 ---
 
+## 🌐 Live Demo
+
+You can view the live version of my CV portfolio here:  
+👉 [https://iataur3.github.io/cv-portfolio/](https://iataur3.github.io/cv-portfolio/)
+
+---
+
 ## 🔍 Features
 
 - ✅ Responsive design for desktop and mobile
@@ -17,12 +24,6 @@ It showcases my professional background, skills, and contact information.
 ## 📁 Folder Structure
 
 cv-portfolio/ ├── index.html ├── style.css ├── assets/
-
----
-
-## 🚀 Live Demo
-
-🔗 [Visit the live site](https://iataur3.github.io/cv-portfolio/)
 
 ---
 
