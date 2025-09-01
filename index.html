@@ -9,7 +9,12 @@
   <body>
     <header>
       <div>
-        <img src="assets/image1.png" alt="Ataur Rahman" class="profile-photo" />
+        <img
+          id="mainImage"
+          src="assets/image2.webp"
+          alt="Default Image"
+          onclick="changeImage()"
+        />
       </div>
       <div>
         <h1>Ataur Rahman</h1>
@@ -17,7 +22,17 @@
           Diploma Engineer in Computer Technology | Web & Database Enthusiast
         </p>
         <p>📍 Char-Shukdebnagor, Boalmari, Faridpur, Dhaka</p>
-        <p>📞 01765431150 ✉️ iataur3@gmail.com</p>
+        <a href="tel:+8801765431150">📞 01765431150</a> 
+        <a href="mailto:iataur3@gmail.com">✉️ iataur3@gmail.com</a> 
+        <a href="https://iataur3.github.io/cv-portfolio/" target="_blank">
+          🐙 https://iataur3.github.io/
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ataur-rahman-8841ba16a"
+          target="_blank"
+        >
+          🔗 https://www.linkedin.com/
+        </a>
       </div>
     </header>
 
@@ -79,7 +94,7 @@
       <h2>🧠 Skills</h2>
       <div class="skills">
         <div>
-          <h4>Technical Skills</h4>
+          <h3>Technical Skills</h3>
           <ul>
             <li>HTML, CSS, JavaScript, Node.js</li>
             <li>MS Office, Google Sheets</li>
@@ -88,7 +103,7 @@
           </ul>
         </div>
         <div>
-          <h4>Soft Skills</h4>
+          <h3>Soft Skills</h3>
           <ul>
             <li>Analytical Thinking</li>
             <li>Team Collaboration</li>
@@ -98,9 +113,48 @@
         </div>
       </div>
     </section>
-
+    <section>
+      <div>
+        <h2>🌐 Language Proficiency</h2>
+        <ul>
+          <li>Bengali: Fluent (Oral & Written)</li>
+          <li>English: Fluent (Oral & Written)</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2>🧩 Strengths & Work Attitude</h2>
+        <ul>
+          <li>Self-motivated and reliable</li>
+          <li>Strong interpersonal and communication skills</li>
+          <li>Able to work under pressure and in critical situations</li>
+          <li>Committed to continuous learning and teamwork</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2>📜 Declaration</h2>
+        I hereby declare that all the information provided above is true to the
+        best of my knowledge. I understand that any false information may result
+        in dismissal.
+      </div>
+    </section>
     <footer>
       <p>© 2025 Ataur Rahman. All rights reserved.</p>
     </footer>
+    <script>
+      function changeImage() {
+        const image = document.getElementById("mainImage");
+        if (image.src.includes("image2.webp")) {
+          image.src = "assets/image3.jpg";
+          image.alt = "Ataur Rahman";
+        } else {
+          image.src = "assets/image2.webp";
+          image.alt = "Default Image";
+        }
+      }
+    </script>
   </body>
 </html>

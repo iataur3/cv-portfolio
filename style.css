@@ -5,46 +5,32 @@ body {
   background: #f4f4f4;
   color: #333;
 }
-.profile-photo {
+#mainImage {
   display: block;
-  margin: 20px auto;
-  width: 80%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 5%;
-  object-fit: cover;
+  margin: 0 auto;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 25%;
+  transition: all 0.3s ease-in-out;
 }
-
 header,
 section,
 footer {
-  padding: 20px;
+  padding: 30px;
   margin: 10px auto;
   max-width: 800px;
   background: #fff;
   border-radius: 8px;
 }
 
-h1,
+h1 {
+  color: goldenrod;
+}
 h2 {
   color: #007acc;
 }
-
-.skills {
-  display: flex;
-  justify-content: space-between;
+h3 {
+  color: rgb(9, 180, 9);
 }
-
-.skills div {
-  width: 45%;
-}
-@media (max-width: 600px) {
-  .profile-photo {
-    display: block;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 250px;
-    height: auto;
-    align-items: center;
-  }
+@media (max-width: 700px) {
 }
